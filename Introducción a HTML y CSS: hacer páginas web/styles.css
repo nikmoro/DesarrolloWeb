@@ -1,0 +1,47 @@
+    
+    /* Un ID no se puede volver a asignar a otro elemento del documento */
+    /* Las Clases, se pueden repetir y las podemos usar las veces que queramos dentro del mismo documento. */
+    /* https://www.campusmvp.es/recursos/post/clases-ids-css-cuando-como-usarlas.aspx */
+    
+    body { background-color: aquamarine; }
+    h2 { color: blue; }
+    h3 { color: red; }
+
+    /* selector de descendientes */
+    /* Hace que todas las etiquetas "b" y "em" de un "p" tengan un fondo amarillo */
+    p b, em { background-color: yellow;}
+
+    /* El selector comienza con "." para las clases */
+    .languages-selector { background-color: white; }
+    .reasons { background-color: lightblue;}
+    .li-size { font-size: 1.5rem; }
+
+    /* El selector comienza con "#" para los identificadores */
+    #summary {
+        color: red;
+        font-size: 2rem;
+    }
+
+    /* Texto Invisible */
+    figcaption {
+        display:none; 
+        transition: all .5s;
+      }
+
+    /* Texto Visible */
+    figure:hover > figcaption {
+        display:block;
+        transition: all .5s;
+      }
+
+      .table-title {
+        background-color: lightgreen;
+        font-size: x-large;  /* Mas inf. sobre la propiedad: https://developer.mozilla.org/es/docs/Web/CSS/font-size */
+        font-weight: bold;
+        margin: auto;
+      }
+
+      .elements-title { font-weight: bold; }
+      .first-file { background-color: yellow; }
+      .second-file { background-color: #7f7f7f; }
+      .third-file { background-color: red; }
