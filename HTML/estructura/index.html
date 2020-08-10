@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="shortcut icon" href="favicon.png">
 </head>
+
 <body>
     <!-- Comentarios VScode: ctrl+shift+/ -->
     <header><img src="img/logo.jpg" alt=""></header> <!-- Normalmente para el logo de la página -->
@@ -18,15 +19,71 @@
     </nav>
     <article>
         <h1>Bienvenido</h1>
-        <p>Primer párrafo de la página</p>
+        <p>Bienvenido a mi página web.</p>
         <section>
-            <h2>Prueba h2</h2> <!-- Manejar tamaños por gerarquía del contenido -->
-            <p>Este parrafo describe el uso de h2, (manejar tamaños por gerarquía del contenido) </p>
+            <h2>Lenguajes de programación favoritos</h2> <!-- Manejar encabezados por gerarquía del contenido -->
+            <p>En esta lista mostraré los lenguajes que me gustaria aprender  <br>
+               y dominar en el trascurso de mi carrera profesional y por que:</p>
+            <ol>
+                <li>JavaScript
+                    <ul>
+                        <li>Web (Front End (React y más) y Back End (Node.js))</li>
+                        <li>Escritorio (Electron)</li>
+                        <li>Móvil (React Native)</li>
+                    </ul>
+                </li>
+                <li>Python
+                    <ul>
+                        <li>Web (Back End - Django || Flask)</li>
+                        <li>Escritorio (Tkinter)</li>
+                    </ul>
+                </li>
+                <li>Java
+                    <ul>
+                        <li>Web (Back End - Spring)</li>
+                        <li>Escritorio</li>
+                        <li>Movil (Android Studio)</li>
+                    </ul>
+                </li>
+                <li>Kotlin
+                    <ul>
+                        <li>Movil (Android Studio) como alternativa a Java</li>
+                    </ul>
+                </li>
+            </ol>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <!--  Listas de definición -->
+            <p>Lista de estados de méxico y sus capitales:</p>
+            <dl>
+                <dt>Jalisco</dt>
+                <dd>Guadalajara</dd>
+                <dt>Nuevo León</dt>
+                <dd>Monterrey</dd>
+                <dt>Chiapas</dt>
+                <dd>Tuxtla Guitiérrez</dd>
+            </dl>
         </section>
     </article>
+
+    <figure>
+        <pre>
+            <code>
+                void saludar(){
+                    printf("Hola Mundo");
+                }
+            </code>
+        </pre>
+    </figure>
+    <figcaption>Ejemplo de una función en C</figcaption>
+
     <aside></aside>
     <footer>
-        <p>Morales Rosales</p>
+        <p>Página creada por: Morales Rosales</p>
     </footer>
     <script src="JS/scripts.js"></script>
 </body>
