@@ -1,47 +1,59 @@
+/* Un ID sólo debe ser usado una vez en el documento */
+/* Las Clases, se pueden repetir y las podemos usar las veces que queramos dentro del mismo documento. */
+/* https://www.campusmvp.es/recursos/post/clases-ids-css-cuando-como-usarlas.aspx */
     
-    /* Un ID no se puede volver a asignar a otro elemento del documento */
-    /* Las Clases, se pueden repetir y las podemos usar las veces que queramos dentro del mismo documento. */
-    /* https://www.campusmvp.es/recursos/post/clases-ids-css-cuando-como-usarlas.aspx */
-    
-    body { background-color: aquamarine; }
-    h2 { color: blue; }
-    h3 { color: red; }
+  body { background-color: aquamarine; }
+  h3 { color: red; }
+  p { font-family: "helvetica", sans-serif;} /* ,Familias de tipo de letra de respaldo */
 
-    /* selector de descendientes */
-    /* Hace que todas las etiquetas "b" y "em" de un "p" tengan un fondo amarillo */
-    p b, em { background-color: yellow;}
+  /* selector de descendientes */
+  /* Hace que todas las etiquetas "b" y "em" de un "p" tengan un fondo amarillo */
+  p b, em { background-color: lightblue;}
 
-    /* El selector comienza con "." para las clases */
-    .languages-selector { background-color: white; }
-    .reasons { background-color: lightblue;}
-    .li-size { font-size: 1.5rem; }
+  /* El selector comienza con "." para las clases y "#" para los identificadores */
+  .p1 {
+    font-weight: bold; /* Negritas */
+    font-size: 25px;
+  }
+  .reasons { font-style: italic; }
+  .li-size {
+    font-size: 1.5rem;
+    font-family: cursive;
+    font-style: italic;
+    /* font: italic 1.5rem cursive;  /* Propiedad "shorthand" */
+  }
 
-    /* El selector comienza con "#" para los identificadores */
-    #summary {
-        color: red;
-        font-size: 2rem;
-    }
+  #inicio {
+    font-size: 50px;
+    text-align:center;
+  }
 
-    /* Texto Invisible */
-    figcaption {
-        display:none; 
-        transition: all .5s;
-      }
+  #summary {
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
+  }
 
-    /* Texto Visible */
-    figure:hover > figcaption {
-        display:block;
-        transition: all .5s;
-      }
+  /* Texto Invisible */
+  figcaption {
+    display:none; 
+    transition: all .5s;
+  }
 
-      .table-title {
-        background-color: lightgreen;
-        font-size: x-large;  /* Mas inf. sobre la propiedad: https://developer.mozilla.org/es/docs/Web/CSS/font-size */
-        font-weight: bold;
-        margin: auto;
-      }
+  /* Texto Visible */
+  figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+  }
 
-      .elements-title { font-weight: bold; }
-      .first-file { background-color: yellow; }
-      .second-file { background-color: #7f7f7f; }
-      .third-file { background-color: red; }
+  .table-title {
+    background-color: lightgreen;
+    font-size: x-large;  /* Mas inf. sobre la propiedad: https://developer.mozilla.org/es/docs/Web/CSS/font-size */
+    font-weight: bold;
+    margin: auto;
+  }
+
+  .elements-title { font-weight: bold; }
+  .first-file { background-color: yellow; }
+  .second-file { background-color: #7f7f7f; }
+  .third-file { background-color: red; }
