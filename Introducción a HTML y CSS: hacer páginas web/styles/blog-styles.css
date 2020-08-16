@@ -1,0 +1,36 @@
+#margin-body {
+  margin: 0px 0px 0px 0px;
+}
+nav {
+  border: 0px 0px 15px 0px;
+  background-color: black;
+  padding: 15px;
+  margin: 0px 0px 5px 0px; /* Sentido horario */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; /* Elemento que se muestra primero (Sobre todo lo demás) */
+}
+.nav-a {
+  padding: 5px;
+  color: white;
+}
+#container {
+  position: absolute;
+  top: 50px;
+  padding: 0px 15px 5px 15px;
+}
+.utable {
+  font-family: "helvetica", sans-serif;
+}
+p {
+  font-family: "helvetica", sans-serif;
+  font-size: 0.9em;
+}
+.cursive-txt {
+  font-style: italic;
+}
+.weight {
+  font-weight: bold;
+}

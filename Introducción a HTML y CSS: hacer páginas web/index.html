@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis lenguajes de programación</title>
-    <link rel="stylesheet" href="styles.css"> <!-- <style>: CSS en el HTML-->
+    <link rel="stylesheet" href="styles/styles.css"> <!-- <style>: CSS en el HTML-->
 </head>
 
-<body>
-    <div>
-        <div>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="blog.html">Blog</a>
-            </nav>
-        </div>
-        <h1 id="inicio">Los 10 lenguajes de programación mas demandados</h1>
+<body id="margin-body">
+    <div id="menu">
+        <nav>
+            <a class="nav-a" href="#">Inicio</a>
+            <a class="nav-a" href="blog.html">Blog</a>
+        </nav>
+    </div>
+    <div id="container">
+        <h1 id="title1">Los 10 lenguajes de programación <span class="enfacis">mas demandados</span></h1>
         <p class="p1">Según HIRED en la tabla con los 10 lenguajes con mayor demanda en el 2020, esta encuesta se
             enfocan en los 10 lenguajes de programación que cuentan con menos competencia y más oportunidades laborales.
         </p>
@@ -35,14 +35,15 @@
         </ol>
 
         <!-- alt: texto alternativo; width: Anchura; height: Altura; Usar solo una de las 2 opciones (para proporcionalidad automática) -->
-        <img src="https://res.cloudinary.com/edteam/image/upload/v1582248895/blog/lenguajes-de-programacion-con-mayor-demanda.png"
-            alt="Infografía del Top" width="500"> <br>
+        <img class="imgs"
+            src="https://res.cloudinary.com/edteam/image/upload/v1582248895/blog/lenguajes-de-programacion-con-mayor-demanda.png"
+            alt="Infografía del Top"> <br>
         <!--a: anclar enlace; target="_blank": abrir en nueva pestaña; Uso del target: Si va a una página en otro dominio-->
         <a href="https://ed.team/blog/los-10-lenguajes-de-programacion-con-mayor-demanda-en-2020" target="_blank">Más
             información acerca de este listado.</a> <br><br>
 
         <hr>
-        <h2>Lenguajes de programación que me gustaría aprender y mis razones:</h2>
+        <h2>Lenguajes de programación que me gustaría aprender y por que:</h2>
         <!-- Unordered List -->
         <ul class="li-size">
             <li>JavaScript</li>
@@ -81,7 +82,7 @@
             también se usa en el backend y desarollo móvil.</p><br>
 
         <h4>Tabla comparativa:</h4>
-        <table width="430" border="2" cellspacing="3" cellpadding="3">
+        <table id="table-compara">
             <thead class="table-title">
                 <!-- define una celda de encabezado -->
                 <tr>
@@ -150,13 +151,14 @@
                 </tr>
             </tbody>
         </table>
-
-        <h2>Resumen:</h2>
-        <p id="summary">Prefriero empezar por el desarrollo web ya que tiene un campo laboral mas amplio y diversos <br>
-            usos, incluyendo las aplicaciones basadas en web, pero eso si, implica aprender y dominar varias
-            tecnologías.</p>
-
-        <a href="#inicio">Volver a Inicio</a> <!-- Referenciar en la misma página usando id's -->
+        <div id="div-color-summary">
+            <h2>Resumen:</h2>
+            <p id="summary">Prefriero empezar por el desarrollo web (Back-End) ya que tiene un campo laboral mas amplio
+                y diversos usos, incluyendo las aplicaciones basadas en web, aunque implica aprender y dominar varias
+                tecnologías.
+            </p>
+        </div>
+        <h5><a href="#menu">Ir al inicio</a></h5> <!-- Referenciar en la misma página usando id's -->
         <footer><small>"Curso de HTML y CSS desde Khan Academy"</small></footer>
     </div>
 </body>

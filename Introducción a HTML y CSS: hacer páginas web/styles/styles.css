@@ -4,8 +4,35 @@
 /* Use clases cuando haya varios elementos en una sola página web que necesiten estilo. */
 /* https://www.campusmvp.es/recursos/post/clases-ids-css-cuando-como-usarlas.aspx */
 
+#margin-body {
+  margin: 0px 0px 0px 0px;
+}
+nav {
+  background-color: black;
+  padding: 15px;
+  margin: 0px 0px 5px 0px; /* Sentido horario */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-a {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+#container {
+  position: absolute;
+  top: 20px;
+  padding: 0px 15px 5px 15px;
+}
 body {
   background-color: aquamarine;
+}
+.enfacis {
+  text-decoration: underline;
 }
 h3 {
   color: red;
@@ -35,17 +62,34 @@ em {
   font-style: italic;
   /* font: italic 1.5rem cursive;  /* Propiedad "shorthand" */
 }
-
-#inicio {
+#title1 {
   font-size: 50px;
   text-align: center;
 }
-
+.imgs {
+  width: 500px;
+}
+#table-compara {
+  margin: 1px;
+  border: 2px dashed black; /* elementos obligatorios */
+  padding: 5px;
+}
 #summary {
+  width: auto;
+  height: 100px;
+  overflow-y: auto; /* Ajustar texto en el div */
+  overflow-x: hidden;
   color: blue;
   font-size: 2rem;
   font-style: italic;
   text-decoration: underline;
+  padding: 15px;
+}
+#div-color-summary {
+  background-color: lightgreen;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
 }
 
 /* Texto Invisible */
