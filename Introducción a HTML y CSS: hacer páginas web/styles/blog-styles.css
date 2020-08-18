@@ -13,6 +13,7 @@ nav {
   z-index: 1; /* Elemento que se muestra primero (Sobre todo lo demás) */
 }
 nav a {
+  text-decoration: none;
   padding: 15px 16px;
   color: white;
   text-align: center;
@@ -20,13 +21,39 @@ nav a {
 nav a:hover {
   background-color: green;
 }
+h1, h5 {
+  float: center;
+  text-align: center;
+  clear: both;
+}
 #container {
   position: absolute;
   top: 50px;
   padding: 0px 15px 5px 15px;
 }
+#barra-lateral {
+  float: left;
+  width: 17%;
+  border: 0px;
+  margin-right: 5px;
+  background-color: lightblue;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 0px;
+  border: 2px dashed black;
+}
 .utable {
   font-family: "helvetica", sans-serif;
+}
+#entradas {
+  float: right;
+  width: 80%;
+  border: 0px;
+  background-color: lightgreen;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 p {
   font-family: "helvetica", sans-serif;
