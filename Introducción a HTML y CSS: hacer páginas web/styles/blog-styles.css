@@ -44,6 +44,7 @@ h1, h5 {
 }
 .utable {
   font-family: "helvetica", sans-serif;
+  line-height: 1.5em;
 }
 #entradas {
   float: right;

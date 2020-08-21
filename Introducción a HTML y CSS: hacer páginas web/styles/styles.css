@@ -39,6 +39,9 @@ body {
 .enfacis {
   text-decoration: underline;
 }
+.resalto {
+  background-color: red;
+}
 h3 {
   color: red;
 }
@@ -46,7 +49,7 @@ p {
   font-family: "helvetica", sans-serif;
 } /* ,fuente de respaldo en caso de no tener "helvetica" */
 
-/* selector de descendientes */
+/* selectores descendientes */
 /* Hace que todas las etiquetas "b" y "em" de un "p" tengan un fondo amarillo */
 p b,
 em {
@@ -87,7 +90,6 @@ em {
   color: blue;
   font-size: 2rem;
   font-style: italic;
-  text-decoration: underline;
   padding: 15px;
 }
 #div-color-summary {
@@ -108,14 +110,18 @@ figure:hover > figcaption {
   display: block;
   transition: all 0.5s;
 }
+ul li {
+  padding-right: 15px;
+}
 .table-title {
   background-color: lightgreen;
   font-size: x-large; /* Mas inf. sobre la propiedad: https://developer.mozilla.org/es/docs/Web/CSS/font-size */
   font-weight: bold;
   margin: auto;
 }
-.elements-title {
+table .elements-title {
   font-weight: bold;
+  padding: 10px;
 }
 .first-file {
   background-color: yellow;
