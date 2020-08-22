@@ -1,7 +1,9 @@
 #margin-body {
   margin: 0px 0px 0px 0px;
 }
-h1, h5 {
+h1,
+h5 {
+  /* Agrupar selectores */
   float: center;
   text-align: center;
   clear: both;
@@ -39,6 +41,7 @@ h1, h5 {
 p {
   font-family: "helvetica", sans-serif;
   font-size: 0.9em;
+  line-height: 1.5em;
 }
 .cursive-txt {
   font-style: italic;

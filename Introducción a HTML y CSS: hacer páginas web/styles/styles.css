@@ -28,7 +28,7 @@ p {
   font-family: "helvetica", sans-serif;
 } /* ,fuente de respaldo en caso de no tener "helvetica" */
 
-/* selectores descendientes */
+/* selectores descendientes (Anidados) */
 /* Hace que todas las etiquetas "b" y "em" de un "p" tengan un fondo amarillo */
 p b,
 em {
